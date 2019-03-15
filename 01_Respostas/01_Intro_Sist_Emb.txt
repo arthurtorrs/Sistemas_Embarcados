@@ -1,0 +1,42 @@
+1 - O que são sistemas embarcados?
+    
+	"Uma combinação de hardware e software, e frequentemente outras partes elétricas e/ou mecânicas, projetados para executar funções específicas. Em alguns casos, fazem parte de um produto ou sistema maior...".
+
+
+2 - O que são sistemas microprocesssados?
+
+	Sistemas onde o "computador é completamente encapsulado ou dedicado ao dispositivo ou sistema que ele controla... realiza um conjunto de tarefas predefinidas, geralmente com requisitos específicos... pode-se otimizar o projeto reduzindo tamanho, recursos computacionais e custos do produto".
+
+
+3 - Apresente aplicações de sistemas embarcados: 
+
+(a) Para a indústria automotiva; 
+	- Sistemas de GPS
+	- Alarme
+	- Sistema de Freios ABS
+	- Airbags
+
+(b) Para eletrodomésticos; 
+	- Microondas
+	- Controle remoto
+	- Geladeiras
+	- Aparelhos de som/dvd
+
+(c) Para automação industrial.
+	- Robótica industrial
+	- Interface entre homem e máquina
+	- Controladores programáveis
+
+
+4 - Cite arquiteturas possíveis e as diferenças entre elas.
+
+	Os dois tipos principais de arquitetura para memória são a arquiteteura Harvard e a arquitetura von Neumann. Na arquitetura Harvard, pode-se ler simultaneamente os dados e o programa, uma vez que o barramente de dados e o barramento do programa são separados.Ja na arquitetura von Neumann, esses barramentos não são separados, o que se traduz numa arquitetura mais simples porém menos eficiente.
+
+
+
+5 - Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+
+	Principalmente devido ao custo, em comparação com os demais. Além de que, o raspberry PI atende as exigencias da matéria.
+
+
+
