@@ -27,6 +27,17 @@ Para todas as questões, escreva os scripts e as chamadas correspondentes no ter
 
 3- Utilizando a lógica do script anterior, descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
 
+	#!/bin/bash
+	for (( i=2019; i>=2009; i-=1 ))
+	do
+		DIA=$1	
+		MES=$2    
+		ANO=$i
+		echo ANO: $i	
+		ncal $2 $i | grep 26
+	done
+
+
 4- Crie um arquivo sites.txt com o seguinte conteúdo:
 
 https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados/raw/master/Aulas/01_Linux%20b%C3%A1sico.pdf https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados/raw/master/Aulas/01_Linux%20b%C3%A1sico_Shell_Script.pdf 
