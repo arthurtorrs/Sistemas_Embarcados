@@ -14,6 +14,18 @@ Para todas as questões, escreva os scripts e as chamadas correspondentes no ter
 
 ./cals.sh 1 2020 ./cals.sh 1 2019 2 2020 3 2021 1 2010
 
+	#!/bin/bash
+	args=$#
+	for (( i=1; i<=$args; i+=2 ))
+	do
+		MES=${!i}    
+		ANO=$(($MES+1))
+		
+		cal $MES ${!ANO}
+	done
+
+
+
 3- Utilizando a lógica do script anterior, descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
 
 4- Crie um arquivo sites.txt com o seguinte conteúdo:
