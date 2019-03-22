@@ -19,8 +19,7 @@ Para todas as questões, escreva os scripts e as chamadas correspondentes no ter
 	for (( i=1; i<=$args; i+=2 ))
 	do
 		MES=${!i}    
-		ANO=$(($MES+1))
-		
+		ANO=$(($i+1))
 		cal $MES ${!ANO}
 	done
 
