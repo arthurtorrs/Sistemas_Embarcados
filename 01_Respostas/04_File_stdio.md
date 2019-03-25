@@ -21,6 +21,7 @@ Para todas as questões, utilize as funções da biblioteca `stdio.h` de leitura
 	fclose(fp);
 	} 
 
+
 2. Crie um código em C que pergunta ao usuário seu nome e sua idade, e escreve este conteúdo em um arquivo com o seu nome e extensão '.txt'. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
 
 ```bash
@@ -137,6 +138,7 @@ $ Idade: 30 anos
 
 5. Crie uma função que lê o conteúdo de um arquivo-texto e o guarda em uma string, usando o seguinte protótipo: `char* le_arq_texto(char *nome_arquivo);` Repare que o conteúdo do arquivo é armazenado em um vetor interno à função, e o endereço do vetor é retornado ao final. (Se você alocar este vetor dinamicamente, lembre-se de liberar a memória dele quando acabar o seu uso.) Salve esta função no mesmo arquivo da questão 4, chamado 'bib_arqs.c'. Salve o protótipo no arquivo 'bib_arqs.h'. Compile 'bib_arqs.c' novamente para gerar o objeto 'bib_arqs.o'.
 
+	
 	#include <stdio.h>
 	#include <stdlib.h>
 	#include <string.h>
@@ -169,7 +171,6 @@ $ Idade: 30 anos
 	fclose(fp);
 	free(conteudo);
 	}
-
 
 
 	long tam_arq_texto(char *nome_arquivo);
