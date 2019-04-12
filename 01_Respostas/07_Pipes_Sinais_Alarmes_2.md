@@ -225,7 +225,6 @@ Neste exercício, quem recebe a mensagem via pipe é quem as escreve no terminal
 		pipe(fd);
 		// Cria o processo
 		pid = fork();
-		
 		// Codigo do filho
 		if(pid == 0)
 		{
