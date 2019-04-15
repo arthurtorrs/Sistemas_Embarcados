@@ -130,7 +130,7 @@ Ao final do programa principal, compare os resultados obtidos pelos dois método
 
 
 3. Repita o exercício anterior, mas calcule a média do vetor ao invés do valor máximo.
-
+```````````````````
 	#include <pthread.h>
 	#include <stdio.h>
 	#include <stdlib.h>
@@ -198,9 +198,10 @@ Ao final do programa principal, compare os resultados obtidos pelos dois método
 		printf("Medias = %d, %d\n", medias[0], medias[1]);
 		return 0;
 	}
+```````````````````
 
 4. Repita o exercício anterior, mas calcule a variância do vetor ao invés da média.
-
+`````````````````````````
 	#include <stdio.h>
 	#include <stdlib.h>
 	#include <pthread.h>
@@ -236,7 +237,7 @@ Ao final do programa principal, compare os resultados obtidos pelos dois método
 		printf("variancia: %ld\n", variancia); 	
 		return 0;
 	}
-
+````````````````````
 
 # Questões extra somente para estudo
 
