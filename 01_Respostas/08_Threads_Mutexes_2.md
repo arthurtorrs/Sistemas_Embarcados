@@ -237,10 +237,11 @@ Ao final do programa principal, compare os resultados obtidos pelos dois método
 		printf("variancia: %ld\n", variancia); 	
 		return 0;
 	}
-````````````````````
+
+```````````````
 
 
-Questões extra somente para estudo
+***Questões extra somente para estudo
 
 5. Crie um programa em C que preenche matrizes `long int A[60][60]` e `long int B[60][60]` completamente com valores aleatórios (use a função `random()`), e que calcula a soma das duas matrizes por dois métodos:
 
