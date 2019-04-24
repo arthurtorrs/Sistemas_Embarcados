@@ -2,7 +2,7 @@
 
 (a) Quais são as características básicas deste modelo?
 
-	Basicamente, para qualquerpar de aplicações que se comunicam, um dos lados deve iniciar a execução e esperar (indefinidamente) até ser contactado pelo outro lado.
+	Basicamente, para qualquer par de aplicações que se comunicam, um dos lados deve iniciar a execução e esperar (indefinidamente) até ser contactado pelo outro lado.
 
 (b) Quais são as características básicas do servidor?
 
