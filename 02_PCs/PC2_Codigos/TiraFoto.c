@@ -13,20 +13,6 @@ int main(int argc, char const *argv[])
 	system("fswebcam --jpeg 85 -D 1 foto.jpeg");	//tira a foto com nome foto.jpeg	
 	printf("\nFoto tirada!\n\n");
 
-	/*char oldname[80] = "foto.jpeg";
-	char newname[80];
-		
-	ret = rename(oldname,newname);
-
-	if(ret == 0) 
-	{
-		printf("Arquivo renomeado\n");
-	} 
-	else 
-	{
-		printf("Erro: não deu pra renomear\n");
-	}*/
-
 	return 0;
 }
 
